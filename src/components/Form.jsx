@@ -38,7 +38,7 @@ const Form = () => {
 
   return (
     <main className="flex flex-col items-center justify-center h-screen bg-stone-950">
-      <div className="h-4/5 w-1/3 flex flex-col gap-8 p-6">
+      <div className="h-4/5 md:w-[40%] sm:w-[70%] w-[90%] flex flex-col gap-8 p-6">
         <form onSubmit={handleSubmit}>
           <label htmlFor="item" className="text-white font-semibold text-3xl">To do list</label>
           <p className="leading-6 text-zinc-500 text-xs">Set To Dos</p>
